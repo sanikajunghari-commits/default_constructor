@@ -1,30 +1,28 @@
 #include <iostream>
 
 using namespace std;
-class  Rectangle
+class Programming
 {
-     float length;
-     float breath;
-
-     public:
-    Area()
+    string name;
+    public:
+    Programming()
     {
-        cout<<"The area of rectangle = "<<(length*breath)<<endl;
+        cout<<"I love programming language. "<<endl;
+
     }
 
-    Rectangle(float l, float b)
+    Programming(string name)
     {
-        length = l;
-        breath = b;
+        cout<<"I love "<<name<<"."<<endl;
     }
-
 };
 
 int main()
 {
-    Rectangle r1(4,5),r2(5,8);
-    r1.Area();
-    r2.Area();
+
+
+    //Programming p;
+    Programming p1("Shinchan");
 
     return 0;
 }
